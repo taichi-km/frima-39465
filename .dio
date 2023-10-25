@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="UA45YAs_xbwovEI8awG4" name="ページ1">
-        <mxGraphModel dx="737" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="567" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -19,7 +19,7 @@
                 <mxCell id="zY4GcX7AI3BTSPr52cC0-35" value="name_last" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontFamily=Times New Roman;align=left;" vertex="1" parent="zY4GcX7AI3BTSPr52cC0-1">
                     <mxGeometry y="116" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="zY4GcX7AI3BTSPr52cC0-34" value="name_firts" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontFamily=Times New Roman;align=left;" vertex="1" parent="zY4GcX7AI3BTSPr52cC0-1">
+                <mxCell id="zY4GcX7AI3BTSPr52cC0-34" value="name_first" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontFamily=Times New Roman;align=left;" vertex="1" parent="zY4GcX7AI3BTSPr52cC0-1">
                     <mxGeometry y="146" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="zY4GcX7AI3BTSPr52cC0-33" value="katakana_last" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontFamily=Times New Roman;align=left;" vertex="1" parent="zY4GcX7AI3BTSPr52cC0-1">
