@@ -4,9 +4,10 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   
-  validates :nickname, presence: true
-  validates :name_last, presence: true, format: { with: /\A[ぁ-んァ-ン一-龥]+\z/, message: 'は全角ひらがな、全角カタカナ、漢字で入力してください' }
-  validates :name_first, presence: true, format: { with: /\A[ぁ-んァ-ン一-龥]+\z/, message: 'は全角ひらがな、全角カタカナ、漢字で入力してください' }
+  validates :password, format: { with: /\A(?=.*?[a-z])(?=.*?[\d])[a-z\d]+\z/i, message: 'は半角英数字混合で入力してください' }
+  validates :nickname, presence: true 
+  validates :name_last, presence: true, format: { with: /\A(?:\p{Hiragana}|\p{Katakana}|[ー－]|[一-龠々])+\z/, message: 'は全角ひらがな、全角カタカナ、漢字で入力してください' }
+  validates :name_first, presence: true, format: { with: /\A(?:\p{Hiragana}|\p{Katakana}|[ー－]|[一-龠々])+\z/, message: 'は全角ひらがな、全角カタカナ、漢字で入力してください' }
   validates :katakana_last, presence: true, format: { with: /\A[ァ-ン]+\z/, message: 'は全角カタカナで入力してください' }
   validates :katakana_first, presence: true, format: { with: /\A[ァ-ン]+\z/, message: 'は全角カタカナで入力してください' }
   validates :birthday, presence: true
