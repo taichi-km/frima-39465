@@ -8,8 +8,6 @@ FactoryBot.define do
     address       { Faker::Address.street_address }
     building      { "建物" }
     phone_number  { "0901234567" }
-    association :user
-    association :item
 
   end
 end
