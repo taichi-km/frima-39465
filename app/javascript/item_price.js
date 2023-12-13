@@ -12,4 +12,4 @@ function fee () {
 
 };
 
-document.addEventListener('DOMContentLoaded', fee)
+document.addEventListener('turbo:load', fee)
